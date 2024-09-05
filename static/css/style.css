@@ -1,0 +1,72 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #e0e0e0; /* Cor de fundo delicada */
+    padding: 20px 0; /* Padding ajustado para ajustar o banner */
+    text-align: center;
+}
+
+.banner-img {
+    width: 100%; /* Ajuste para preencher a largura da tela */
+    max-width: 150px; /* Tamanho máximo da imagem */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    color: #333;
+    font-size: 2.5rem; /* Tamanho do título */
+}
+
+header p {
+    font-family: 'Lora', serif;
+    color: #666;
+    font-size: 1.25rem; /* Tamanho da descrição */
+}
+
+/* Sidebar Styles */
+.sidebar-nav {
+    background-color: #fafafa; /* Cor de fundo suave para o sidebar */
+    border-right: 1px solid #ddd; /* Linha separadora sutil */
+    height: 100vh; /* Sidebar ocupa toda a altura da tela */
+    padding: 15px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar-nav ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar-nav ul li a:hover,
+.sidebar-nav ul li a.active {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
